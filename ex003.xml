@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- Esta é a tag para inserir comentários
+standalone significa que o arquivo funciona sozinho
+sem depender de outro -->
+<curso>
+<aluno>
+    <nome>Daniel Portella</nome>
+    <email>emailteste@mail.com</email>
+    <telefone>(21)99999-9999</telefone>
+    <cd>Música &amp; Cantoria</cd>
+    <album>As melhores - &quot;Ao vivo&quot;</album>
+    <![CDATA[
+        <script>
+         alert("CD Música & Cantoira lançado em 2011")
+        </script>
+    ]]>
+</aluno>
+</curso>
+<!-- Representando caracteres especiais
+        < = &lt;
+        > = &gt;
+        ' = &apos;
+        & = &amp;
+        " = &quot;
+-->
